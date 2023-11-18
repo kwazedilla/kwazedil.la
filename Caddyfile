@@ -1,0 +1,4 @@
+kwazedil.la {
+	root * /srv
+	file_server
+}
