@@ -1,3 +1,7 @@
+www.kwazedil.la {
+	redir https://kwazedil.la{uri}
+}
+
 kwazedil.la {
 	root * /srv
 	file_server
