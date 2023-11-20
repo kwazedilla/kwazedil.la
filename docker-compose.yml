@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   caddy:
-    image: caddy:latest
+    image: iarekylew00t/caddy-cloudflare:latest
     restart: unless-stopped
     ports:
       - "80:80"
@@ -13,6 +13,8 @@ services:
       - ./site:/srv
       - caddy_data:/data
       - caddy_config:/config
+    environment:
+      - ${CF_API_TOKEN}
 
 volumes:
   caddy_data:

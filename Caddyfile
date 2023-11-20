@@ -3,6 +3,11 @@ www.kwazedil.la {
 }
 
 kwazedil.la {
-	root * /srv
+	root * /srv/www
+	file_server
+}
+
+clover.kwazedil.la {
+	root * /srv/clover
 	file_server
 }
