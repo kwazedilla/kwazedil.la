@@ -1,1 +1,8 @@
+# Ignore set environment variables
 *.env
+
+# Ignore directories
+# Images
+img/
+# IDEA directory from IntelliJ
+.idea/
