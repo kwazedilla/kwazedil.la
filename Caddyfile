@@ -7,7 +7,7 @@ kwazedil.la {
 	file_server
 }
 
-clover.kwazedil.la {
-	root * /srv/clover
+helper.kwazedil.la {
+	root * /srv/helper
 	file_server
 }
