@@ -1,0 +1,36 @@
+/*
+.varela-round-regular {
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-sans-text {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+ */
+.main-text {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.main-text h1 {
+    color: yellow;
+    background-color: black;
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-text p {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
